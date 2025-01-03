@@ -58,5 +58,5 @@ project/
 
 
 ## How to run the project 
-First install all the libraries in requirements.txt \\
-Run ``` python main.py ``` (make sure you're connected to UM6P.local WiFi)
+- First install all the libraries in requirements.txt  
+- Run ``` python main.py ``` (make sure you're connected to UM6P.local WiFi)
