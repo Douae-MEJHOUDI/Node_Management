@@ -1,30 +1,19 @@
-# Node Management System - Project Report
+# SLURM Node Management System
 
 ## Project Overview
 The Node Management System is a web-based application designed to monitor and manage SLURM cluster nodes in real-time. It provides a secure, interactive dashboard for system administrators to monitor resource usage, node states, and generate detailed reports.
 
-## Architecture
+## Features
 
-### Core Components
-1. **Authentication System**
-   - Secure login interface
-   - SSH-based credential verification
-   - Session management for user persistence
-   - Protection against unauthorized access
+- Secure SSH authentication
+- Real-time node monitoring
+- Interactive visualizations
+- Automated data updates (5-minute intervals)
+- PDF report generation
+- 7-day historical data tracking
 
-2. **Dashboard Interface**
-   - Real-time monitoring of node status
-   - Interactive visualizations
-   - Resource usage metrics
-   - Node-specific detailed views
 
-3. **Reporting System**
-   - PDF report generation
-   - Customizable report content
-   - Visual data representation
-   - Historical data analysis
-
-### Technical Stack
+## Technical Stack
 - **Backend**: FastAPI, Python
 - **Frontend**: Dash, Plotly
 - **Authentication**: SSH Client (Paramiko)
